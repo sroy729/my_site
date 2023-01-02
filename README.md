@@ -1,27 +1,39 @@
-# Minimal Mistakes remote theme starter
+# Personal Portfolio
 
-Click [**Use this template**](https://github.com/mmistakes/mm-github-pages-starter/generate) button above for the quickest method of getting started with the [Minimal Mistakes Jekyll theme](https://github.com/mmistakes/minimal-mistakes).
+[![build-test](https://github.com/rickydebojeet/rickydebojeet.github.io/actions/workflows/test.yml/badge.svg)](https://github.com/rickydebojeet/rickydebojeet.github.io/actions/workflows/test.yml)
+[![github-pages](https://github.com/rickydebojeet/rickydebojeet.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/rickydebojeet/rickydebojeet.github.io/actions/workflows/pages/pages-build-deployment)
 
-Contains basic configuration to get you a site with:
+**This Repository contains codes for my Personal Portfolio.** The site uses the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme for Jekyll. The theme is licensed under the [MIT License](https://opensource.org/licenses/MIT). I further modified the theme to suit my needs. I am adding more features to the theme as I go along. Feel free to use the theme for your own website.
 
-- Sample posts.
-- Sample top navigation.
-- Sample author sidebar with social links.
-- Sample footer links.
-- Paginated home page.
-- Archive pages for posts grouped by year, category, and tag.
-- Sample about page.
-- Sample 404 page.
-- Site wide search.
+## Pre-Requisites
 
-Replace sample content with your own and [configure as necessary](https://mmistakes.github.io/minimal-mistakes/docs/configuration/).
+Following package are needed for generating the site:
 
----
+- Ruby
+- RubyGems
+- Bundler
 
-## Troubleshooting
+## Usage
 
-If you have a question about using Jekyll, start a discussion on the [Jekyll Forum](https://talk.jekyllrb.com/) or [StackOverflow](https://stackoverflow.com/questions/tagged/jekyll). Other resources:
+To generate the site, run the following commands:
 
-- [Ruby 101](https://jekyllrb.com/docs/ruby-101/)
-- [Setting up a Jekyll site with GitHub Pages](https://jekyllrb.com/docs/github-pages/)
-- [Configuring GitHub Metadata](https://github.com/jekyll/github-metadata/blob/master/docs/configuration.md#configuration) to work properly when developing locally and avoid `No GitHub API authentication could be found. Some fields may be missing or have incorrect data.` warnings.
+```bash
+bundle install
+bundle exec jekyll serve
+```
+
+## Background
+
+I have used jekyll posts for blog, pages for other stuff, collections for extras. I am going to modify the projects and publications to use collections. I may change some other stuff as well. I am also going to add a few more features to the theme. I will update the README as I go along.
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request :D
